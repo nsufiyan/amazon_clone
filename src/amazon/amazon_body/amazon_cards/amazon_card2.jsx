@@ -17,14 +17,14 @@ export function Amazon_Card2() {
 
             <h3 className='text-center  fw-bold mt-2 mb-1'>Shop by Need</h3>
             {
-                need.map((item) => (
-                    <img src={item} style={{ width: "400px" }} />
+                need.map((item, index) => (
+                    <img src={item} style={{ width: "400px" }} key={index} />
                 ))
             }
             <h3 className='text-center mb-1 fw-bold mt-4 mb-1'>Shop by Color</h3>
             {
-                color.map((item) => (
-                    <img src={item} style={{ width: "400px" }} />
+                color.map((item, index) => (
+                    <img src={item} style={{ width: "400px" }} key={index} />
                 ))
             }
         </div>

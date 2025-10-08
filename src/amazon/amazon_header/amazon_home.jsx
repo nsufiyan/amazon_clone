@@ -18,7 +18,7 @@ export function Amazon_Home() {
                 </div >
 
                 <div className="col-md-2 mt-1 ms-0">
-                    <button className="border border-light-subtle border-2 bg-dark text-light " data-bs-toggle="modal" data-bs-target="#modal_id"> Delivary to Bengaluru 562114 <span><b>Update Location <i class="bi bi-geo-alt-fill"></i></b></span> </button>
+                    <button className="border border-light-subtle border-2 bg-dark text-light " data-bs-toggle="modal" data-bs-target="#modal_id"> Delivary to Bengaluru 562114 <span><b>Update Location <i className="bi bi-geo-alt-fill"></i></b></span> </button>
 
 
 
@@ -35,11 +35,11 @@ export function Amazon_Home() {
                         <option>Deals</option>
                     </select>
                 </div>
-                
+
                 <div className="col-md-3 ms-0">
                     <input className="form-control border border-warning border-4 mt-xl-2 " placeholder="Search Amazon.in" />
                 </div>
-            
+
 
                 <div className="col-md-1" >
                     <select className="form-select mt-2 border border-warning border-4  bg-dark text-light text-center">
