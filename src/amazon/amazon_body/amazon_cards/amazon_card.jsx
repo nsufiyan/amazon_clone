@@ -34,7 +34,7 @@ export function Amazon_Card() {
                     <div className='card m-3 text-center' id="cardid" key={index}>
                         <div className='card-header  fw-bold fs-4'>{item.title}</div>
                         <div className='card-img-top mt-2'><img src={item.img} className='card_img' /></div>
-                        <div className='card-footer align-self-start'><a href='#'>See all offers</a></div>
+                        <div className='card-footer align-self-start'><a>See all offers</a></div>
                     </div>
                 ))
             }

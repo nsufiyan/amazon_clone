@@ -21,8 +21,8 @@ export function Amazon_SingIn() {
                     <Link to="/">Back to home</Link>
                 </div>
                 <div className="card-footer ">
-                   <span> Buying for work?</span><br/>
-                  <span >  Create a free business account</span>
+                    <span> Buying for work?</span><br />
+                    <span >  Create a free business account</span>
                 </div>
 
             </div>
