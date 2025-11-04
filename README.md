@@ -87,8 +87,7 @@ Then open localhost:3000 in your browser.
 🧑‍💻 Author
 
 Developer: Shaik Nizamuddin Sufiyan
-
-GitHub: https:github.com/nsufiyan
+**GitHub:** [@nsufiyan](https://github.com/nsufiyan)
 
 ⚠️ Disclaimer
 
