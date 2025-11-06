@@ -3,10 +3,11 @@ var express = require("express");
 var cors = require("cors");
 
 var app = express();
-app.use(cors());
+app.use(cors({ origin: "http://localhost:3000", credentials: true, }));
 const path = require('path')
 var mongoose = require("mongoose");
 const amazonRouter = require("./Router/amazonRouter");
+const userRouter = require("./Router/userAccountRouter");
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '/media')));
 
@@ -20,7 +21,15 @@ mongoose.connect('mongodb://localhost:27017/Amazon')
         console.log(err);
     });
 
+
+app.use((req, res, next) => {
+    console.log(`${new Date()} :: ${req.method} :: ${req.path} :: ${JSON.stringify(req.body)}`);
+    next();
+});
+
 app.use("/api", amazonRouter);
+app.use("/api", userRouter);
+
 
 
 app.listen(5050, () => {
