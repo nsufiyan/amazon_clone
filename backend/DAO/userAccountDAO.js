@@ -5,11 +5,15 @@ const addUser = (data) => {
 }
 
 const getUser = (data) => {
-    return userSchema.find(data).exec();
+    return userSchema.findOne(data).exec();
 }
 
 const deleteUser = (data) => {
     return userSchema.findOneAndDelete(data).exec()
 }
 
-module.exports = { addUser, getUser, deleteUser };
+const updateUser = (query, data) => {
+    return userSchema.findOneAndUpdate(query, data, { new: true }).exec()
+}
+
+module.exports = { addUser, getUser, deleteUser, updateUser };
