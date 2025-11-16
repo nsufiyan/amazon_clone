@@ -38,22 +38,26 @@ It focuses mainly on the **frontend page view**, with responsive UI and basic ro
 ## 📦 Frontend Dependencies
 ```json
 {
-  "axios": "^1.13.1",
-  "bootstrap": "^5.3.8",
-  "bootstrap-icons": "^1.13.1",
-  "react": "^19.2.0",
-  "react-dom": "^19.2.0",
-  "react-router-dom": "^7.9.5"
-}
+    "axios": "^1.13.1",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+    }
 ```
 ⚙️ Backend Dependencies
 ```json
 {
-  "cors": "^2.8.5",
-  "dotenv": "^17.2.3",
-  "express": "^5.1.0",
-  "mongoose": "^8.19.2",
-  "multer": "^2.0.2"
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2"
 }
 ```
 ⚙️ Installation & Setup
