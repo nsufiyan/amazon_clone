@@ -1,0 +1,18 @@
+.back {
+    background-color: rgb(24, 52, 70);
+
+}
+
+.main_footer {
+    background-color: #2d4f66;
+}
+
+.get {
+    display: block;
+    padding: 5px;
+    color: white;
+}
+
+footer span:hover {
+    border: 1px solid white;
+}
